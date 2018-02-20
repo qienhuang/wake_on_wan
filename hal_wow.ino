@@ -61,7 +61,7 @@ void setup() {
   pinMode(power_control_pin, OUTPUT);
   pinMode(power_status_pin, INPUT);
 
-  // For security reason, only response on "///wow" page
+  // For security reason, only respond to "/wow" page
   server.on("/wow", []() {
     if (!server.authenticate(auth_user, auth_password)) {
       if (attempted >= MAX_ATTEMPT) {
