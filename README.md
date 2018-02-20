@@ -4,13 +4,10 @@
 ```
 Features:
 
-Basic authentication
-
-Hardware level controlling power on/off
-
-Force shutdown (in case of OS failure)
-
-Checking power on/off status
+- Basic authentication
+- Hardware level controlling power on/off
+- Force shutdown (in case of OS failure)
+- Checking power on/off status
 
 ```
 
