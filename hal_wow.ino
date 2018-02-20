@@ -19,12 +19,11 @@ int power_status_pin = D1;    //GPIO 5
 
 const static char html_str[] =   "<html><head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\
   <title>Control</title><style>body{background-color:lightblue;font-size:24px;}</style></head><body><h1>Control</h1>\
-  <ul><li><a href=\"on\">TURN ON</a></li><br><li><a href=\"off\">TURN OFF</a></li><br><li><a href=\"force\">FORCE SHUTDOWN</a></li><br><li><a href=\"check\">CHECK POWER STATUS</a></li><br></ul><i>%s</i></body></html>";
+  <ul><li><a href=\"on\">TURN ON</a></li><br><li><a href=\"off\">TURN OFF</a></li><br><li><a href=\"force\">FORCE SHUTDOWN\
+  </a></li><br><li><a href=\"check\">CHECK POWER STATUS</a></li><br></ul><i>%s</i></body></html>";
 
 void setup() {
 
-
-  // Initialise array index
   attempted = 0;
 
   // Set static ip
