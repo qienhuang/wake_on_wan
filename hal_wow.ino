@@ -75,6 +75,7 @@ void setup() {
       return server.requestAuthentication();
     }
     //server.send(200, "text/html", "Login OK, IP: " + server.client().remoteIP().toString()  );
+    attempted = 0;
     char temp[1024];
     sprintf(temp, html_str, "> Choose an operation");
     server.send(200, "text/html", temp);
