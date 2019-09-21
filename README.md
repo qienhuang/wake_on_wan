@@ -1,5 +1,5 @@
 # WAKE ON WAN
-**An hardware level wake on wan application. Implemented in Arduino and ESP8266 board**
+**A hardware level wake on wan application. Implemented in Arduino and ESP8266 board**
 
 ### Features:
 
